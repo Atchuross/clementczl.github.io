@@ -1,0 +1,11 @@
+.red-cube{
+    background: red;
+    margin: 0 auto;
+    display: block;
+    padding: 100px 0;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
+}

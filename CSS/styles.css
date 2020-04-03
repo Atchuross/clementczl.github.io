@@ -1,0 +1,474 @@
+
+/* GENERAL */
+
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+}
+
+section{
+    padding: 45px 0 80px 0;
+}
+
+section .heading{
+    text-align: center;
+    padding: 20px 0 40px 0;
+}
+
+section .heading h2{
+    text-transform: uppercase;
+}
+
+
+.brown-divider{
+    width: 100px;
+    height: 2px;
+    border: 1px solid rgb(196, 158, 137);
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.white-divider{
+    width: 100px;
+    height: 2px;
+    border: 1px solid white;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+
+/* MENU */
+.navbar {
+    background-color: rgb(196, 158, 137);
+    border-bottom: 1px solid #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-pills .nav-link{
+    color: #fff !important;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+.nav-pills .nav-link.active,  .nav-pills .nav-link:hover{
+    color: rgb(196, 158, 137) !important;
+    background-color: #fff !important;
+}
+.navbar-toggler{
+    color: #fff !important;
+    border-style: none;
+}
+
+
+
+
+/* ABOUT */
+
+#about{
+    padding-top: 100px;
+    background: rgb(196, 158, 137);
+}
+
+.profile-picture{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+
+#about .heading h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Quicksand'
+}
+
+#about .heading h3{
+    color: #000;
+}
+
+
+.button1{
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 18px 50px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.button1:hover{
+    
+    background: white;
+    text-decoration: none;
+    color: rgb(196, 158, 137);
+}
+
+/* COMPETENCE */
+
+#skills{
+    background: #fff;
+}
+
+#skills .heading h2{
+    color: rgb(196, 158, 137);
+}
+
+
+#skills .progress{
+    height: 30px;
+    margin: 30px 20px;
+    background: #ddd;
+}
+
+
+#skills .progress-bar{
+    background: rgb(196, 158, 137);
+}
+
+#skills .progress h5{
+    text-shadow: 1px, 1px, 1px, 1px #000;
+    margin: auto 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+
+/* EXP PRO */
+
+
+#xp{
+    background: rgb(196, 158, 137);
+}
+
+#xp .heading h2{
+    color: white;
+}
+
+.timeline{
+    padding: 30px 10px;
+    position: relative;
+}
+
+.timeline:before{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    background: #333;
+    margin-left: 50%;
+    left: -2.5px;
+}
+
+.timeline > li{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:after{
+    clear: both;
+}
+
+.timeline > li:before, .timeline > li:after{
+    content: " ";
+    display: table;
+}
+
+.timeline li .timeline-badge{
+    color: rgb(196, 158, 137);
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: -25px;
+    margin-left: 50%;
+    background-color: #ddd;
+    border-radius: 50%
+}
+
+.timeline-panel-container{
+    width: 50%;
+    float: left;
+}
+
+.timeline-panel-container-inverted{
+    width: 50%;
+    float: right;
+}
+
+.timeline-panel{
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid #d4d4d4;
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    background: #fff;
+}
+
+.timeline-panel-container-inverted .timeline-panel{
+    width: 90%;
+    float: left;
+    margin-left: 40px;
+    border: 1px solid #d4d4d4;
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    background: #fff;
+}
+
+.timeline-panel:after{
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid white;
+    border-right: 0 solid white;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline-panel-container-inverted .timeline-panel:after{
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline-heading h3{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.timeline-heading h4{
+    color: rgb(196, 158, 137);
+}
+
+
+
+/* FORMATION */
+
+#formation{
+    background: #fff;
+}
+
+#formation .heading h2{
+    color: rgb(196, 158, 137);
+}
+
+.education-block{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    height: 100%;
+    
+}
+
+.education-block h5{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.education-block .fa-graduation-cap{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.education-block h3{
+    color: rgb(196, 158, 137);
+}
+
+.education-block h4{
+    margin-bottom: 20px;
+    font-size: 20px
+}
+
+.education-block p{
+    margin: 10px 0;
+}
+
+
+.education-block .brown-divider{
+    margin-bottom: 20px;
+}
+
+.education-block a{
+    margin: 20% 0;
+    border: 2px solid #aaa;
+}
+
+.education-block a:hover{
+    margin: 20% 0;
+    border: 2px solid #ccc;
+    background: #fff;
+}
+
+/* PROJETS */
+
+#projets{
+    background: rgb(196, 158, 137);
+}
+
+#projets .heading h2{
+    color: #fff;
+}
+
+#projets a{
+    width: 100%;
+    margin: 20px auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    border: 1px solid #F7F7F7;
+    border-radius: 3px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 18px 50px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#projets a:hover{
+    background: #F7F7F7;
+    text-decoration: none;
+    color: rgb(196, 158, 137);
+}
+
+
+/* FOOTER */
+
+footer{
+    background: #333;
+    padding: 20px 0 40px 0;
+}
+
+footer .fa-chevron-up{
+    color: #fff;
+    font-size: 25px;
+    margin: 20px;
+    height: 30px;
+    transition-duration: 0.3s;
+}
+
+footer .fa-chevron-up:hover{
+    color: rgb(196, 158, 137);
+    margin: 20px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+footer h5{
+    color: white;
+    font-weight: normal;
+}
+
+
+/* ANIMATION */
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 763px){
+    #formation h5,p{
+        font-size: 13px;
+    }
+    
+    #formation h4{
+        font-size: 15px;
+    }
+    
+    #formation a{
+        position: relative;
+        right: 15%;
+    }
+    
+    #formation h3{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px){
+    
+    .timeline-panel-container{
+    width: 50%;
+    float: right;
+    }
+    
+    .timeline-panel{
+    float: left;
+    margin-left: 40px;
+    }
+    
+    .timeline-panel:after{
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+    }
+    
+    .timeline:before{
+    margin-left: 10%;
+    }
+    
+    .timeline li .timeline-badge{
+    margin-left: 8.5%;
+    }
+    
+    .timeline-panel-container, .timeline-panel-container-inverted{
+        position: relative;
+        right: 20%;
+    }
+    
+    .timeline-panel-container, .timeline-panel-container-inverted{
+        width: 250px;
+    }
+    
+    #formation a{
+        position: relative;
+        left: 1%;
+        margin-left: -2px;
+    }
+    
+    .col-sm-4{
+        margin-bottom: 20px;
+    }
+    
+    #skills .progress h5{
+    font-size: 14px;
+}
+
+}
+
+
+

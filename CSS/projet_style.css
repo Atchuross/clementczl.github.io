@@ -1,0 +1,251 @@
+/* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-bottom: 100px
+}
+
+.text h4{
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text p
+{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tiles, .tiles-brown{
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+.brown-divider{
+    width: 100px;
+    height: 2px;
+    border: 1px solid rgb(196, 158, 137);
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.white-divider{
+    width: 100px;
+    height: 2px;
+    border: 1px solid white;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+
+section{
+    padding: 45px 0 80px 0;
+}
+
+.disabled{
+    position: relative;
+    top: 50px;
+} /* Utilisé pour replacer les bouttons plus d'info sur les section ne contenant encore R */
+
+
+.fa-home:hover{
+    color: #333;
+    transition-duration: 0.3s;
+}
+
+/* MENU */
+.navbar {
+    background-color: rgb(196, 158, 137);
+    font-size: 12px;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-pills .nav-link{
+    color: #fff !important;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+.nav-pills .nav-link.active,  .nav-pills .nav-link:hover{
+    color: rgb(196, 158, 137) !important;
+    background-color: #fff !important;
+}
+.navbar-toggler{
+    color: #fff !important;
+    border-style: none;
+}
+
+/* xcode */
+
+#xcode, #web{
+    background: rgb(196, 158, 137);
+}
+
+.button-2
+{
+    
+    color: #fff;
+    background-color: rgb(196, 158, 137);
+    position: relative;
+    border-radius: 3px;
+}
+.button-2:hover
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(65, 179, 226);
+}
+
+/* CONTAINER */
+
+.container{
+    padding: 45px 0 80px 0;
+}
+
+/* tiles */
+
+#img{
+    height: 90px;
+    background-repeat: no-repeat;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 5px 5px 0 0;
+    background: white;
+    opacity: 0.85;
+    text-align: center;
+}
+
+div img{
+    height: 80px;
+    width: 91px;
+    margin: 4px auto 0 2px;
+    opacity: 0.85;
+}
+
+.tile-5,.tile-7,.tile-8, div img{
+    height: 80px;
+    width: 110px;
+    margin: 4px auto 0 2px;
+    opacity: 0.85;
+}
+
+#white-div{
+    background: white;
+    width: 200px;
+    height: 210px;
+    border: 1px solid white;
+    border-radius: 0 0 5px 5px;
+}
+
+/* TILES BROWN */
+
+.tiles-brown #img{
+    height: 90px;
+    background-repeat: no-repeat;
+    width: 200px;
+    border: 1px solid rgb(196, 158, 137);
+    border-radius: 5px 5px 0 0;
+    background: rgb(196, 158, 137);
+    opacity: 0.85;
+    text-align: center;
+}
+
+.tiles-brown div img{
+    height: 80px;
+    width: 60px;
+    margin: 4px auto 0 2px;
+    opacity: 0.85;
+}
+
+#brown-div{
+    background: rgb(196, 158, 137);
+    width: 200px;
+    height: 210px;
+    border: 1px solid rgb(196, 158, 137);
+    border-radius: 0 0 5px 5px;
+}
+
+.tiles-brown .text h4{
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.tiles-brown .text p
+{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/* JS */
+
+#JavaScript{
+    background: #fff;
+}
+
+#JavaScript h1{
+    color: rgb(196, 158, 137);
+}
+
+.tiles-brown .button-2
+{
+    
+    color: rgb(196, 158, 137);
+    background-color: #fff;
+    position: relative;
+    border-radius: 3px;
+}
+.tiles-brown .button-2:hover
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(238, 210, 72);
+    border-radius: 3px
+}
+
+/* WEB */
+
+#web a:hover{
+    background: rgb(233, 113, 87);
+}
+
+
+/* MEDIA QUERY USE FOR SM WIDTH */
+
+@media (max-width: 576px){
+    body .tiles, .tiles-brown{
+        padding: inherit;
+        position: relative;
+        left: 27%;
+        margin-left: -7px;
+    }
+    
+    body{
+        background: rgb(196, 158, 137);
+    }
+    
+}
