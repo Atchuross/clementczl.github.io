@@ -233,6 +233,52 @@ div img{
     background: rgb(233, 113, 87);
 }
 
+/* FOOTER */
+
+footer{
+    background: #333;
+    padding: 20px 0 40px 0;
+}
+
+footer .fa-chevron-up{
+    color: #fff;
+    font-size: 25px;
+    margin: 20px;
+    height: 30px;
+    transition-duration: 0.3s;
+}
+
+footer .fa-chevron-up:hover{
+    color: rgb(196, 158, 137);
+    margin: 20px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+footer h2{
+    color: white;
+    font-weight: normal;
+    font-size: 122%;
+}
+
+#lien{
+    padding: 20px 0 0 0;
+}
+
+#lien a {
+    margin-right: 20px;
+    position: relative;
+    left: 10px;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+#lien a:hover{
+    color: rgb(196, 158, 137);;
+    padding: 20px 0 0 0;
+}
+
+
 
 /* MEDIA QUERY USE FOR SM WIDTH */
 
