@@ -15,7 +15,7 @@ $(function(){
                     $("#css-progress").delay(100).animate({width: "+=85%"}, 400);
                     $("#js-progress").delay(100).animate({width: "+=30%"}, 400);
                     $("#jq-progress").delay(100).animate({width: "+=40%"}, 400);
-                    $("#sql-progress").delay(100).animate({width: "+=70%"}, 400)
+                    $("#sql-progress").delay(100).animate({width: "+=40%"}, 400)
                     $("#php-progress").delay(100).animate({width: "+=20%"}, 400)
                 });
     
