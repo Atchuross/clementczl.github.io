@@ -44,9 +44,11 @@ $(function(){
                 .on("enter", function() {
                     
                     $("#mjb").css('visibility', 'visible').hide().fadeIn(1000, function(){
-                        $("#bk").css('visibility', 'visible').hide().fadeIn(1000, function(){
-                            $("#slib").css('visibility', 'visible').hide().fadeIn(1000, function(){
-                                $("#rb").css('visibility', 'visible').hide().fadeIn(1000);
+                        $("#VVM").css('visibility', 'visible').hide().fadeIn(1000, function(){
+                            $("#bk").css('visibility', 'visible').hide().fadeIn(1000, function(){
+                                $("#slib").css('visibility', 'visible').hide().fadeIn(1000, function(){
+                                    $("#rb").css('visibility', 'visible').hide().fadeIn(1000);
+                                });
                             });
                         });
                     });
