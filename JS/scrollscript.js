@@ -1,6 +1,7 @@
 $(function(){
     
     $("#mjb").css("visibility", "hidden");
+    $("#VVM").css("visibility", "hidden");
     $("#bk").css("visibility", "hidden");
     $("#slib").css("visibility", "hidden");
     $("#rb").css("visibility", "hidden");
